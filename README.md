@@ -8,7 +8,7 @@ This is the beta version of pwGenerator. It's purpose is the generation of passw
 ![use](https://github.com/SchnJulian/pwGenerator/blob/master/screenshot.png "How to generate passwords")
 
 ## Built With
- * [qt](https://www.qt.io)
+ * [qt](https://www.qt.io) - The GUI libary used
 
 ## Authors
 
