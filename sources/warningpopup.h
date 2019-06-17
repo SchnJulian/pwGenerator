@@ -4,19 +4,18 @@
 #include <QDialog>
 
 namespace Ui {
-  class WarningPopup;
+class WarningPopup;
 }
 
-class WarningPopup : public QDialog
-{
+class WarningPopup : public QDialog {
   Q_OBJECT
 
-public:
-  explicit WarningPopup(QWidget *parent = nullptr);
+ public:
+  explicit WarningPopup(QWidget* parent = nullptr);
   ~WarningPopup();
 
-private:
-  Ui::WarningPopup *ui;
+ private:
+  Ui::WarningPopup* ui;
 };
 
-#endif // WARNINGPOPUP_H
+#endif  // WARNINGPOPUP_H

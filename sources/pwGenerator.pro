@@ -27,16 +27,28 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    password.cpp
+    password.cpp \
+    dialog.cpp \
+    warningpopup.cpp
 
 HEADERS += \
         mainwindow.h \
-    password.h
+    password.h \
+    dialog.h \
+    infint.h \
+    warningpopup.h \
+    csvparser.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+    dialog.ui \
+    warningpopup.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES += \
+    wordList.txt \
+    firstNames.txt
